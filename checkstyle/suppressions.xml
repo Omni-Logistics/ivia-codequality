@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+
+    <suppress checks="JavadocMethod" files=".*(Test.java$)|(Tests.java$)|(IT.java$)|(Assert.java$)" />
+    <suppress checks="MethodName" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="MethodLength" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="MagicNumber" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="JavadocPackage" files="(test.*)" />
+    <suppress checks="ClassDataAbstractionCoupling" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="VisibilityModifier" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="AbstractClassName" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <suppress checks="EmptyBlockCheck" files=".*(Test.java$)|(Tests.java$)|(IT.java$)" />
+    <!-- Do not analyze generated classes -->
+    <suppress checks=".*" files=".*generated-assertions.*"/>
+    <suppress checks=".*" files=".*target.*" />
+    <suppress checks=".*" files="com[\\/]tms[\\/]"/>
+
+    <suppress checks="JavadocType" files=".*Mojo"/>
+    <suppress checks=".*" files=".*Assert.java"/>
+    <suppress checks=".*" files=".*Assertions.java"/>
+    <suppress checks="HideUtilityClassConstructor" files=".*Application.java"/>
+</suppressions>
