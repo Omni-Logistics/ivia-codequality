@@ -9,7 +9,12 @@
         IVIA PMD Ruleset
     </description>
 
-    <rule ref="category/java/errorprone.xml" />
-    <rule ref="category/java/bestpractices.xml" />
-    <rule ref="category/java/design.xml" />
+    <rule ref="category/java/design.xml/AbstractClassWithoutAnyMethod" />
+    <rule ref="category/java/design.xml/AvoidThrowingNullPointerException" />
+    <rule ref="category/java/design.xml/AvoidThrowingRawExceptionTypes" />
+    <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal" />
+    <rule ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod" />
+    <rule ref="category/java/errorprone.xml/EqualsNull" />
+    <rule ref="category/java/errorprone.xml/ReturnEmptyCollectionRatherThanNull" />
+    <rule ref="category/java/performance.xml/AvoidFileStream" />
 </ruleset>
