@@ -17,6 +17,7 @@
     <suppress checks=".*" files=".*generated-assertions.*"/>
     <suppress checks=".*" files=".*target.*" />
     <suppress checks=".*" files="com[\\/]tms[\\/]"/>
+    <suppress checks=".*" files=".*/archunit/.*" />
 
     <suppress checks="JavadocType" files=".*Mojo"/>
     <suppress checks=".*" files=".*Assert.java"/>
