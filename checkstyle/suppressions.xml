@@ -26,5 +26,6 @@
     <suppress checks="RegexpMultilineCheck" files="(test.*)"/>
     <suppress checks="RegexpSinglelineCheck" files="(test.*)"/>
     <suppress checks="EmptyLineSeparatorCheck" files="(test.*)"/>
+    <suppress checks="JavadocStyleCheck" files="(test.*)"/>
     <suppress checks="HideUtilityClassConstructor" files=".*Application.java"/>
 </suppressions>
