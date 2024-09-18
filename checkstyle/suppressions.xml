@@ -22,6 +22,8 @@
     <suppress checks="JavadocType" files=".*Mojo"/>
     <suppress checks=".*" files=".*Assert.java"/>
     <suppress checks=".*" files=".*Assertions.java"/>
-    <suppress checks="RegexpMultiline" files=".*Test.java"/>
+    <suppress checks="FileLengthCheck" files="(test.*)"/>
+    <suppress checks="RegexpMultilineCheck" files="(test.*)"/>
+    <suppress checks="RegexpSinglelineCheck" files="(test.*)"/>
     <suppress checks="HideUtilityClassConstructor" files=".*Application.java"/>
 </suppressions>
